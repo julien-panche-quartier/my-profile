@@ -1,0 +1,146 @@
+	
+body {
+	ground-color: rgb(230, 230, 230);
+	color: rgb(40, 40, 40);
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+H1, H2, H3 {
+	 font-family: 'Roboto', sans-serif;
+}
+
+H1 {
+	color: #575F7D;
+	font-size: 45px;
+	font-weight: bold;
+
+}
+
+H2 {
+	color: #7ECE90;
+	font-size: 24px;
+	font-weight: Bold;
+}
+
+ a {
+ 	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+a:hover {
+	font-family: 'Roboto', sans-serif;
+	color: blue;
+}
+
+/*colors and fonts */ 
+
+.img-circle {
+	border-radius: 50%;
+}
+
+
+.julien {
+	background-color: #6B72E1;
+	color: white;
+	padding: 8px 10px;
+	border-radius: 4px;
+}
+.julien:hover {
+	background-color: lightyellow;
+	color: black;
+}
+
+
+.container {
+	    width: 700px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+@media (max-width 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.case-1 {
+	background: white;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.case-2 {
+	background: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.case-3 {
+	background: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.case-4 {
+	background: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.case-5 {
+	background: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.case-6 {
+	background: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+
+}
+
+.list-inline li {
+	display : inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
